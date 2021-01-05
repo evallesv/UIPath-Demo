@@ -3,7 +3,9 @@
     <x:Property Name="in_TextoAEscribir" Type="InArgument(x:String)" />
   </x:Members>
   <this:EscribirHolaMundo.in_TextoAEscribir>
-    <InArgument x:TypeArguments="x:String" />
+    <InArgument x:TypeArguments="x:String">
+      <Literal x:TypeArguments="x:String" Value="" />
+    </InArgument>
   </this:EscribirHolaMundo.in_TextoAEscribir>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>1146,871</sap:VirtualizedContainerService.HintSize>
